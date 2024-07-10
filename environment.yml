@@ -13,3 +13,6 @@ dependencies:
   - jupyterlab_widgets
   - jupyterlab-git
   - tqdm
+  - imagemagick
+  - pip:
+    - qutip-qip
