@@ -1,0 +1,15 @@
+name: sciqis-main
+dependencies:
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - conda-forge::qutip
+  - conda-forge::pennylane
+  - conda-forge::strawberryfields
+  - conda-forge::cvxpy
+  - jupyter
+  - jupyterlab
+  - jupyterlab_widgets
+  - jupyterlab-git
+  - tqdm
