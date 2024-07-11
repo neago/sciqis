@@ -10,6 +10,8 @@ dependencies:
   - conda-forge::cvxpy
   - jupyter
   - jupyterlab
+  - jupytext
+  - notebook
   - jupyterlab_widgets
   - jupyterlab-git
   - tqdm
