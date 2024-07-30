@@ -1,15 +1,16 @@
 name: sciqis
 channels:
   - conda-forge
+  - nodefaults
 dependencies:
   - pip
   - numpy
   - scipy
   - matplotlib
-  - conda-forge::qutip
-  - conda-forge::pennylane
-  - conda-forge::strawberryfields
-  - conda-forge::cvxpy
+  - qutip
+  - pennylane
+  - strawberryfields
+  - cvxpy
   - jupyter
   - jupyterlab
   - jupytext
