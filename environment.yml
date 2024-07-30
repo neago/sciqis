@@ -1,4 +1,6 @@
-name: sciqis-main
+name: sciqis
+channels:
+  - conda-forge
 dependencies:
   - pip
   - numpy
