@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - nodefaults
 dependencies:
+  - xeus-python
   - pip
   - numpy
   - scipy
@@ -12,8 +13,9 @@ dependencies:
   - strawberryfields
   - cvxpy
   - jupyter
-  - jupyterlab
+  - jupyterlab=4.0  # 4.1 breaks jupyterlab-deck
   - jupytext
+  - jupyterlab-deck
   - notebook
   - jupyterlab_widgets
   - jupyterlab-git
