@@ -12,6 +12,7 @@ dependencies:
   - pennylane
   - strawberryfields
   - cvxpy
+  - h5py
   - jupyter
   - jupyterlab=4.0  # 4.1 breaks jupyterlab-deck
   - jupytext
