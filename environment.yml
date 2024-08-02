@@ -4,6 +4,8 @@ channels:
   - nodefaults
 dependencies:
   - pip
+  - setuptools
+  - build
   - numpy
   - scipy
   - matplotlib
