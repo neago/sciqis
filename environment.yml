@@ -9,6 +9,9 @@ dependencies:
   - numpy
   - scipy
   - matplotlib
+  - pandas
+  - numba
+  - numexpr
   - qutip
   - pennylane
   - strawberryfields
@@ -21,6 +24,8 @@ dependencies:
   - notebook
   - jupyterlab_widgets
   - jupyterlab-git
+  - jupyterthemes
+  - mdutils
   - line_profiler
   - tqdm
   - imagemagick
