@@ -12,6 +12,7 @@ dependencies:
   - pandas
   - numba
   - numexpr
+  - cython
   - qutip
   - pennylane
   - strawberryfields
@@ -29,5 +30,6 @@ dependencies:
   - line_profiler
   - tqdm
   - imagemagick
+  - rocketpy
   - pip:
     - qutip-qip
