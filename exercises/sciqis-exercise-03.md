@@ -14,9 +14,9 @@ Here, you are not going to perform quantum experiments or to do classical simula
 
 [Sim et al.](https://onlinelibrary.wiley.com/doi/abs/10.1002/qute.201900070) defines the _expressibility_ of a quantum circuit as the [Kullback-Leibler divergence](https://omni.wikiwand.com/en/articles/Kullback%E2%80%93Leibler_divergence#Definition) of the discrete distribution $P(F)$ with the discrete distribution $Q(F)=(N-1)(1-F)^{(N-2)}$. The idea of expressibility is to quantify how close to a truly random circuit you can get. Lower values are better.
 
-Here, $P(F)$ (or $\hat{P}_\text{PQC}(F;\theta)$) is the distribution of fidelities $F = |\langle\psi_\Theta| \psi_\Phi\rangle|^2$ between pairs of states sampled from the output of a random circuit - here, specifically for parametrised circuits where $\Theta$ and $\Phi$ represent the set of randomly sampled gate parameters. $P(F)$ is continuous, but in a numerical experiment it will be discretised by building a histogram of the sampled fidelities.
+Here, $P(F)$ (or $\hat P_\text{PQC}(F;\theta)$ ) is the distribution of fidelities $F = |\langle\psi_\Theta| \psi_\Phi\rangle|^2$ between pairs of states sampled from the output of a random circuit - here, specifically for parametrised circuits where $\Theta$ and $\Phi$ represent the set of randomly sampled gate parameters. $P(F)$ is continuous, but in a numerical experiment it will be discretised by building a histogram of the sampled fidelities.
 
-$Q(F)$ (or $P_\text{Haar}(F)$) is the theoretical distribution of fidelities when the unitary $U$ of the circuit is sampled uniformly from the distribution of all $n$-qubit unitaries (Haar-distributed).
+$Q(F)$ (or $P_\text{Haar}(F)$ ) is the theoretical distribution of fidelities when the unitary $U$ of the circuit is sampled uniformly from the distribution of all $n$-qubit unitaries (Haar-distributed).
 
 1. Read sections 3.1.1 and 3.1.2 of Sim et al. and study Figure 1. This should give you a good idea of the main concept.
 2. Using your circuit simulator, set up some code for generating random circuits. You can sample from a set of fixed gates, as described at the top of p.5 of Mullane, or you can sample parameters of a fixed configuration of parametrised gates, as in Sim et al. -- or you can combine both.
