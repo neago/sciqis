@@ -163,3 +163,4 @@ cython_debug/
 
 # SCIQIS
 .jupyter/
+.virtual_documents/
