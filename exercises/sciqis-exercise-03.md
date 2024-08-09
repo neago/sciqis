@@ -1,4 +1,4 @@
-## Day 3 (NumPy, qubits, CV)
+## Day 3 and 4 (NumPy, qubits, CV)
 
 
 #### More NumPy practice
