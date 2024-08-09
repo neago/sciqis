@@ -31,5 +31,6 @@ dependencies:
   - tqdm
   - imagemagick
   - rocketpy
+  - ffmpeg
   - pip:
     - qutip-qip
