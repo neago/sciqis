@@ -1,8 +1,8 @@
-## Day 1 (intro, packaging)
+## Exercise set 1 (intro, packaging)
 
-#### Package management
+#### A: Package management
 
-##### Set up an environment
+##### A.1: Set up an environment
 
 1. Using `mamba` or `conda` on the command line, create and activate an environment to be used for the rest of today's work.
 2. Install numpy, jupyterlab, and whatever else you think you need. Use the conda-forge channel instead of the default channel.
@@ -20,9 +20,9 @@
 * [conda-forge | community-driven packaging for conda](https://conda-forge.org)
 * [Mamba User Guide — documentation](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html)
 
-#### Version control
+#### B: Version control
 
-##### Configure git and Github
+##### B.1: Configure git and Github
 
 Only if you don't already have a working configuration:
 
@@ -31,7 +31,7 @@ Only if you don't already have a working configuration:
 3. Create an account on [Github](https://github.com).
 4. [Set up SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) for authentication to Github.
 
-##### Basic version control on the command line
+##### B.2: Basic version control on the command line
 
 1. [Create a new repository](https://github.com/new) on Github under your own account. This is just a sandbox for testing git, and can be deleted later.
 2. From the green "Code" button, get the repository's SSH address.
@@ -41,12 +41,12 @@ Only if you don't already have a working configuration:
    
 Here's an excellent [interactive cheatsheet](https://ndpsoftware.com/git-cheatsheet.html) and [a PDF cheatsheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf).
 
-##### Version control in IDEs
+##### B.3: Version control in IDEs
 
 1. Figure out (again, if you don't already know) how to do all the basic git functions, but now from inside your favourite IDE.
 2. Do the same, now in JupyterLab and in VS Code.
 
-##### Github features
+##### B.4: Github features
 
 1. Create a feature branch, open a pull request on Github, accept it.
 2. Try to create an issue, referencing a pull request within it. Play around with some of the many features on Github.
@@ -54,7 +54,8 @@ Here's an excellent [interactive cheatsheet](https://ndpsoftware.com/git-cheatsh
 **References**
 
 * [IPython Cookbook - 2.4. A typical workflow with Git branching](https://ipython-books.github.io/24-a-typical-workflow-with-git-branching/)
-#### Notebooks vs. .py files, package development
+
+#### C: Notebooks vs. .py files, package development
 
 Let's try a typical scientific coding workflow: Goof around in a notebook, figure out that some of your code will be useful later, compartmentalise the code into functions and perhaps classes, refactor the reusable code into a .py script, and finally organise it into an installable package.
 
@@ -73,6 +74,6 @@ You can come up with completely arbitrary dummy code, but you could also conside
 * [A Practical Guide to Setuptools and Pyproject.toml - Xebia](https://xebia.com/blog/a-practical-guide-to-setuptools-and-pyproject-toml/)
 * [Quickstart - setuptools 72.2.0.post20240802 documentation](https://setuptools.pypa.io/en/latest/userguide/quickstart.html)
 
-#### IDEs
+#### D: IDEs
 
 If you have nothing else left to do, try to discover new features in your favourite IDE and/or get to know one of the other IDEs: [VS Code](https://code.visualstudio.com), [JupyterLab](https://jupyter.org/), [PyCharm](https://www.jetbrains.com/pycharm/), [Spyder](https://www.spyder-ide.org) are probably the most common. [Google Colab](https://colab.research.google.com) is also worth knowing.

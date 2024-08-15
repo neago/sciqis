@@ -15,6 +15,7 @@ The [Dolinar receiver](https://omni.wikiwand.com/en/articles/Dolinar_receiver) i
 Devise a strategy for discrimating different states (or a general strategy). There has been many developments in this direction in recent years (e.g. [this](https://www.nature.com/articles/s41377-022-01039-5)), so perhaps the problem has already been solved.
 
 ![](attachment/094f90e4e8db1d791166061ee8d2ebf8.jpg)
+
 ## Gaussian Boson Sampler generation + visualisation
 
 Gaussian Boson Sampling is a network of beamsplitters, fed at the input with squeezed vacuum states, and sampled at the output with photon counters. It is a form of random circuit sampling.
@@ -47,7 +48,6 @@ Examples: [Qiskit](https://www.ibm.com/quantum/qiskit),  [Cirq](https://quantuma
 Inspiration for [benchmarking](https://github.com/yardstiq/quantum-benchmarks).
 
 ![](attachment/1e1c38207e0f12106c8276fea84ee1f4.png)
-
 
 ## Wigner functions or qubits in Blender
 

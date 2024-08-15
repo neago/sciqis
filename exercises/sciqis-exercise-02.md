@@ -1,13 +1,13 @@
-## Day 2 (NumPy, qubits)
+## Exercise set 2 (NumPy, qubits)
 
-#### NumPy basics
+#### A: NumPy basics
 
 1. Unless you are quite experienced with NumPy, work through this good, efficient tutorial on many of NumPy's basics: [GitHub - jrjohansson/scientific-python-lectures: Lectures on scientific computing with python, as IPython notebooks.](https://github.com/jrjohansson/scientific-python-lectures) 
    Note, though, that it is a bit dated - for example, you don't need the `matrix` type to do matrix multiplication: You can simply use the `@` operator between arrays.
    An excellent alternative, although not a notebook, is this great illustrated tutorial: [NumPy Illustrated: The Visual Guide to NumPy | by Lev Maximov | Better Programming](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b).
 2. Do the [GitHub - rougier/numpy-100: 100 numpy exercises (with solutions)](https://github.com/rougier/numpy-100) from the beginning - get as far as you can, but feel free to skip exercises you find irrelevant. Beware - they quickly get challenging! Be sure to think/try for a while before referring 
 
-#### A simple quantum circuit simulator
+#### B: A simple quantum circuit simulator
 
 There are probably a hundred or more quantum computing simulators out there, but let's add to that count! :)
 

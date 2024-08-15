@@ -1,12 +1,12 @@
-## Day 3 and 4 (NumPy, qubits, CV)
+## Exercise set 3 (NumPy, qubits, CV)
 
 
-#### More NumPy practice
+#### A: More NumPy practice
 
 1. Read this tutorial on the powerful but confusing `einsum` function while testing it on the side: [Einsum Visualized. A Swiss army knife of the array… | by Lev Maximov | Better Programming](https://betterprogramming.pub/einsum-visualized-c050903145ef)
 2. Read [this tutorial on RealPython](https://realpython.com/numpy-random-number-generator/) about random number generation and randomisation or, if you prefer, the [NumPy documentation about its random generator](https://numpy.org/doc/stable/reference/random/generator.html). Note that there was a large overhaul of the `np.random` module with version 1.17 (in 2019) as documented [here](https://numpy.org/doc/stable/reference/random/new-or-different.html), so quite a bit of the tutorials you find online may be using the deprecated version. Play around a bit as you go along.
 
-#### Random circuit sampling
+#### B: Random circuit sampling
 
 You should now try to sample random quantum circuits. Experimentally sampling random circuits has been used e.g. by [Google](https://www.nature.com/articles/s41586-019-1666-5), [USTC](https://www.science.org/doi/full/10.1126/science.abe8770) and [Xanadu](https://www.nature.com/articles/s41586-022-04725-x) to demonstrate quantum computational advantage (or supremacy). Read the first few pages of [Mullane - Sampling random quantum circuits: a pedestrian's guide](https://arxiv.org/abs/2007.07872) for a rough idea of what random circuit sampling entails and why it is interesting.
 
@@ -21,7 +21,8 @@ $Q(F)$ (or $P_\text{Haar}(F)$ ) is the theoretical distribution of fidelities wh
 1. Read sections 3.1.1 and 3.1.2 of Sim et al. and study Figure 1. This should give you a good idea of the main concept.
 2. Using your circuit simulator, set up some code for generating random circuits. You can sample from a set of fixed gates, as described at the top of p.5 of Mullane, or you can sample parameters of a fixed configuration of parametrised gates, as in Sim et al. -- or you can combine both.
 3. Now create some code for calculating the expressibility of the circuit. Compare shallow (few-gate) with deeper circuits - and if possible, try to vary the number of qubits as well.
-#### Continuous variables and the harmonic oscillator
+
+#### C: Continuous variables and the harmonic oscillator
 
 Quantum states of a harmonic oscillator like an optical field mode can be described in a number of different mathematical forms. For pure states, there's the wavefunction in the discrete Fock state basis $\sum_n c_n|n\rangle$ with $c_n=\langle n|\psi\rangle$ or the continuous position basis $\int_{-\infty}^\infty \psi(x)|x\rangle$ with $\psi(x)=\langle x|\psi\rangle$. For general, possibly mixed states, the equivalent representations are the density matrix in the Fock basis $\hat\rho_{mn} = \langle m|\hat\rho|n \rangle$ and the Wigner function $W(x,p) = \frac{1}{2\pi} \int_{-\infty}^\infty e^{iyp}\langle x-\frac{y}{2}|\hat\rho|x+\frac{y}{2}\rangle dy$.
 
@@ -29,5 +30,5 @@ These two formulations - density matrix and Wigner function - are equivalent, bu
 
 1. Construct functions that can convert between the density matrix and Wigner function descriptions of a single-mode quantum state of the harmonic oscillator.
 2. Test your code on some sample states: Fock states and superpositions of these (easy to define in Fock space), Gaussian states (that have simple Wigner functions), cat states (Wigner and Fock basis descriptions in my thesis pp. 20-21), etc.
-3. Profile your code e.g with %timeit, %prun, %lprun and identify potential bottlenecks. See if there may be potential to speed it up with algorithm optimisation, vectorisation, caching (lru_cache), compilation (Numba, numexpr, Cython). 
-   Be sure to keep your different versions around to be able to present your findings.
+3. Profile your code e.g with %timeit, %prun, %lprun and identify potential bottlenecks. See if there may be potential to speed it up with algorithm optimisation, vectorisation, caching (lru_cache), compilation (Numba, numexpr, Cython).  
+Be sure to keep your different versions around to be able to present your findings.
